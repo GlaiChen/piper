@@ -8,7 +8,8 @@ This program is only the invidual part, and the group part will be commited in d
 
 ## Invidual Part - Part A
 For full answer (which is the actual code) - check out the code at <a href="https://github.com/GlaiChen/piper/blob/main/main.c">piper/main.c </a> <br/>
-The main purpose was to write a program that takes a series of program names as arguments, and executes them as piped command, e.g. `ps aux | grep "init"`
+The main purpose was to write a program that takes a series of program names as arguments, <br/>
+and executes them as piped command, e.g. `ps aux | grep "init"`
 
 ## Invidual Part - Part B
 In part B, we were asked to consider the command `ps aux | grep pizza-margarita`. "Assuming that at the time of executing this command, there isn't any process with that name in the system - what would be the expected out of this command? Explain why, based on your experience in writing _piper_."
