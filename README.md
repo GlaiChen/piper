@@ -15,7 +15,7 @@ and executes them as piped command, e.g. `ps aux | grep "init"` <br/>
 In part B, we were asked to consider the command `ps aux | grep pizza-margarita`. "Assuming that at the time of executing this command, there isn't any process with that name in the system - what would be the expected out of this command? Explain why, based on your experience in writing _piper_." <br/>
 <br/>
 As we learned, pipe commands run in parallel. In that case, we cannot guarantee which command will eventualy run first. <br/>
-Actually, it's a matter of details of the workings of the shell combined with scheduler fine-tuning deep in the bowels of the kernel .<<br/>br/>
+Actually, it's a matter of details of the workings of the shell combined with scheduler fine-tuning deep in the bowels of the kernel .<br/>
 The shell first creates the pipe, the "conduit" for the data that will flow between the processes, and then creates the processes with the ends of the pipe connected to them. <br/>
 The first process that is run may block waiting for input from the second process, or block waiting for the second process to start reading data from the pipe. <br/>
 In eventualy, the data gets transfered and everything works just fine, as we mentioned before, no matter which command ran first. <br/>
