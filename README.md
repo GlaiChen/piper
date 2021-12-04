@@ -1,5 +1,6 @@
 # "Advanced Topics in Operating Systems" 
  M.Sc. course at the Reichman University <br/>
+ Lecturer and guide - Dr. Oren Laadan <br/>
 ## piper
 
 This program is a part of our 1st assignment <br/>
